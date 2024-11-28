@@ -1,3 +1,46 @@
-body {
-    font-family: sans-serif;
+html, body {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+#start{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#A{
+    flex: 1;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+}
+
+    #AB{
+        flex: 1;
+        background-color: orange;
+    }
+
+    #AC{
+        flex: 1;
+        background-color: yellow;
+    }
+
+    .AD{
+        flex: 1;
+        background-color: green;
+    }
+
+    .ADBorder{
+        border-style: solid;
+        border-color: black;
+    }
+
+
+#B{
+    flex: 1;
+    background-color: red;
 }
